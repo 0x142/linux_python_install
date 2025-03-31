@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot Service
+After=network.target
+
+[Service]
+User=your_user
+WorkingDirectory=/my_env/my_project
+ExecStart=/my_env/my_project/run_bot.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
