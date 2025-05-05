@@ -57,7 +57,7 @@ And running the telegram bot as a service
 7. Create systemd service `telegram_bot.service`:
 
     ```bash
-    sudo nano /etc/systemd/system/tg_bot_service
+    sudo nano /etc/systemd/system/telegram_bot.service
     sudo systemctl daemon-reload
     sudo systemctl start telegram_bot.service
     sudo systemctl enable telegram_bot.service  
